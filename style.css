@@ -132,8 +132,8 @@ section{
 }
 .section__pic-container{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     margin: auto 0;
 }
 .section__text{
@@ -232,9 +232,7 @@ section{
     margin-top: 2rem;
     margin: 2rem auto;
 }
-.flexa{
-    text-align: center;
-}
+
 .span{
     margin: 50px 0px;
 }
@@ -313,4 +311,9 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;  
+}
+.flexa{
+    text-align: center;
+    rotate: 180deg;
+    cursor: pointer;
 }
