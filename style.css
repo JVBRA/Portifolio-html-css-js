@@ -114,6 +114,13 @@ a:hover{
 .hamburger-icon span:last-child{
     transform: none;
 }
+.section__pic-container2{
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
 /*confg*/
 section{
     padding-top: 4vh;
@@ -149,6 +156,10 @@ section{
 .section__text__p2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
+}
+.title1{
+    font-size: 3rem;
+    text-align: center;
 }
 .title{
     font-size: 3rem;

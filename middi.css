@@ -4,5 +4,103 @@
     }
     #hamburger-nav{
         display: flex;
-    }   
+    } 
+    #profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .section__pic-container{
+       display: none;
+    }
+    .section__text__p1{
+        font-size: 15px;
+    }
+    .icon2{
+        display: none;
+    }
+    .section__text__p2{
+        font-size: 15px;
+    }
+    .abaout-details-container{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .details-container{
+        width: 290px;
+        height: 150px; 
+    }
+    .details-container:first-child{
+        margin-top: -5rem;
+    }
+    #profile{
+        margin-bottom: 5rem;
+    }
+    .p{
+        font-size: 15px;
+        width: 350px;
+        padding-bottom: 5rem;
+        text-align: justify;
+     
+    }
+    .android{
+        width: 100%;
+        margin: auto;
+        height: 15rem;
+        text-align: center;
+    }
+    .section__pic-container2{
+       opacity: 1;
+       width: 150px;
+       height: 150px;
+       margin-top: 7rem;
+       margin-left: -1rem;
+
+    }
+    
+    .title{
+        margin: 0px;
+    }
+    #about{
+        padding-top: 15rem;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    #project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title1{
+        margin-top: 8rem;
+    }
+    .projetos_container{
+        margin-top: 2rem;
+    }
+    #Contact{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5rem;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .contato_contact{
+        width: 350px;
+    }
+    .img_contato{
+        margin: auto;
+        text-align: center;
+    }
+    .img_contact{
+        text-align: center;
+        align-items: center;
+        height: 9rem;
+        margin-bottom: 4rem;
+    }
 }
