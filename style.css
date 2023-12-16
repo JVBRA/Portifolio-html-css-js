@@ -328,3 +328,17 @@ footer{
     rotate: 180deg;
     cursor: pointer;
 }
+.img_project1{
+    height: 6rem;
+    margin-top: 1rem;
+}
+.text_project1{
+    text-align: justify;
+    margin: 0pc 2px 17px;
+    padding: 3px;
+}
+.text_project2{
+    text-align: justify;
+    margin: 0pc 2px 52px;
+    padding: 3px;
+}
