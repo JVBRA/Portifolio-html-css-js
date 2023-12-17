@@ -269,13 +269,14 @@ section{
 }
 .img_project{
     width: 8rem;
+    cursor: pointer;
 }
 .text_project{
     text-align: justify;
     margin: 10px;
 }
 .icone_project{
-    margin-top: 15px;
+    margin: auto;
     height: 2rem;
 }
 #Contact{
@@ -331,6 +332,7 @@ footer{
 .img_project1{
     height: 6rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
 .text_project1{
     text-align: justify;
