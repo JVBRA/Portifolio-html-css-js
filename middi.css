@@ -76,6 +76,9 @@
     .title1{
         margin-top: 8rem;
     }
+    .projetos_container:first-child{
+        margin-top: -2rem;
+    }
     .projetos_container{
         margin-top: 2rem;
     }
@@ -103,4 +106,5 @@
     #project{
         height: 110rem;
     }
+    
 }
