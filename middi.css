@@ -83,6 +83,7 @@
         margin-top: 2rem;
     }
     #Contact{
+        margin-top: 20rem;
         display: flex;
         flex-direction: column;
         padding-bottom: 5rem;
@@ -119,6 +120,35 @@
         object-fit: cover;
         height: 200px;
         width: 300px;
-    
     }
+    .img_slide{
+        object-fit: cover;
+        height: 250px;
+        width: 433px;
+    }
+    .carrossel{
+        margin: 5rem auto;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+        border: 1px solid rgba(0, 0, 0, 0.247);
+        border-radius: 1rem;
+        overflow: hidden;
+        height: 250px;
+        width: 433px;
+    }
+    .new_img{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .text{
+        width: 250px;
+        height: 30rem;
+        
+    }
+    .title2{
+        margin-top: 29rem;
+        margin-bottom: -18rem;
+    }
+    
 }
