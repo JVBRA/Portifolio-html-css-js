@@ -4,3 +4,14 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");   
 }
+const imgs = document.getElementById("img");
+const img = document.querySelectorAll('#img .img_slide')
+let idx = 0;
+function carrossel(){
+    idx++;
+    if(idx > img.length - 1){
+        idx = 0;
+    }
+    imgs.style.transform =  `translateX(${-idx * 500}px)`;
+}
+setInterval(carrossel, 1800);

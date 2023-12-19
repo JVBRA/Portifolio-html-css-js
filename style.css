@@ -344,3 +344,28 @@ footer{
     margin: 0pc 2px 52px;
     padding: 3px;
 }
+/* slide */
+#new{
+    margin: auto;
+}
+.carrossel{
+    margin: 5rem auto;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 300px;
+    width: 400px;
+}
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.img_slide{
+    object-fit: cover;
+    height: 300px;
+    width: 400px;
+
+}
+
