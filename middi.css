@@ -59,7 +59,6 @@
         margin: 0px;
     }
     #about{
-        padding-top: 15rem;
         display: flex;
         flex-direction: column;
         width:100%;
@@ -67,11 +66,34 @@
         align-items: center;
         text-align: center;
         margin: auto;
+        padding-bottom: 10rem;
     }
     #project{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 10rem;
+        padding-bottom: 25rem;
+        
+    }
+    .projetos_container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1800px;
+    }
+    .about-details-container{
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;  
+    }
+    .details-container{
+        margin: 2rem auto;
+
+    }
+    #new{
+        margin-top: 70px;
     }
     .title1{
         margin-top: 8rem;

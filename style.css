@@ -141,7 +141,7 @@ section{
     display: flex;
     height: 350px;
     width: 350px;
-    margin: auto 0;
+    margin: auto;
 }
 .section__text{
     align-self: center;
@@ -229,10 +229,15 @@ section{
 .details-container{
     border: rgb(85,85,85) 0.1rem solid;
     margin-bottom: 2rem;
-    margin-left: 3rem;
     border-radius: 0.7rem;
     text-align: center;
+    width: 500px;
 }
+.about-details-container{
+    margin: auto;
+}
+
+
 .icon2{
     margin: auto;
     height: 2rem;
@@ -240,6 +245,7 @@ section{
 .text-container{
     text-align: center;
     margin-left: 2rem;
+    width: 450px;
 }
 .icon_arrow{
     display: flex;
@@ -253,10 +259,17 @@ section{
 }
 /* Projetos */
 #project{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
 } 
+.projetos_container1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.tamanho{
+    height: 400px;
+}
 .projetos_container{
     cursor: pointer;
     margin: 0px 30px;
